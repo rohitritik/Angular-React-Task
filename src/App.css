@@ -1,0 +1,122 @@
+.App {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .tabs {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .tabs button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .tabs button:hover {
+    background-color: #044c9a;
+  }
+  
+  .tab-content {
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+  }
+  
+    
+
+  img {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  strong {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  div {
+    padding: 10px;
+    font-family: Arial, sans-serif;
+  }
+  
+  p {
+    font-size: 14px;
+    color: #444;
+  }
+
+  
+
+  .participant-card {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 15px;
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .participant-icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+    margin-top: 10px;
+    /* border-radius: 50%; */
+    /* border: 2px solid #ddd; */
+  }
+  
+  .participant-info {
+    flex: 1;
+  }
+  
+  .participant-name {
+    font-weight: bold;
+    font-size: 20px;
+    color: #007bff;
+    margin-left: 10px;
+  }
+  
+
+  .designation-company-presentationtab {
+    margin-top: -20px;
+  }
+  
+  .designation {
+    font-style:normal;
+    color: #666;
+    font-size: 15px;
+  }
+
+  .company {
+    color: #555;
+    font-size: 15px;
+  }
+  
+  .participant-company {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .transcript {
+    margin-bottom: 1px;
+  }
+  
+  .transcript-item {
+    margin: 5px 0;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+
+  .participant-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    gap: 20px; /* Space between columns */
+  }
+  
+  
+  
